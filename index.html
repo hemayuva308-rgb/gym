@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ForgeFit — Redefine Your Limits</title>
+  <meta name="description" content="ForgeFit — Salem's premium fitness center. Elite training, world-class coaches, and a community built for serious athletes.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+   MOBILE MENU
+══════════════════════════════════════════ -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-close" id="mobileClose">✕</button>
+  <a href="#hero">Home</a>
+  <a href="#programs">Programs</a>
+  <a href="#trainers">Trainers</a>
+  <a href="#pricing">Pricing</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-primary">Join Now</a>
+</div>
+
+<!-- ══════════════════════════════════════════
+   NAVBAR
+══════════════════════════════════════════ -->
+<nav id="navbar">
+  <a href="#hero" class="nav-logo">FORGE<span>FIT</span></a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#programs">Programs</a>
+    <a href="#trainers">Trainers</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#contact" class="btn btn-primary">Join Now</a>
+  <button class="nav-hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══════════════════════════════════════════
+   HERO SECTION
+══════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg-pattern"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">⚡ Salem's #1 Fitness Center</div>
+    <h1 class="hero-headline">
+      Push Your
+      <span class="line-red">Limits.</span>
+      <span class="line-outline">Redefine</span>
+      You.
+    </h1>
+    <p class="hero-sub">
+      Elite training, world-class coaches, and a community that holds you accountable. Your transformation starts the moment you walk through our doors.
+    </p>
+    <div class="hero-cta-row">
+      <a href="#contact" class="btn btn-primary">Start Free Trial →</a>
+      <a href="#programs" class="btn btn-outline">▶ Explore Programs</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num" id="statMembers">0+</span>
+        <span class="stat-lbl">Active Members</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" id="statRetention">0%</span>
+        <span class="stat-lbl">Retention Rate</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" id="statPrograms">0+</span>
+        <span class="stat-lbl">Programs</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" id="statTrainers">0</span>
+        <span class="stat-lbl">Expert Trainers</span>
+      </div>
+    </div>
+  </div>
+
+  
+    <div class="hero-img-overlay"></div>
+    <div class="hero-img-badge">
+      <strong>7</strong>
+      <span>Days Free Trial</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+   ABOUT SECTION
+══════════════════════════════════════════ -->
+<section id="about" class="section-pad">
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <div class="section-label">Our Story</div>
+        <h2 class="section-heading">Built For Those Who <span class="text-red">Refuse</span> To Quit</h2>
+        <p class="section-sub">
+          Founded in 2012, ForgeFit was built on one principle: no excuses. With 20,000 sq ft of premium equipment, expert coaching, and a relentless community — we turn commitment into results.
+        </p>
+        <div class="about-features">
+          <div class="feature-row reveal">
+            <div class="feature-icon">🏆</div>
+            <div>
+              <div class="feature-title">Premium Equipment</div>
+              <div class="feature-text">Over 500 pieces of commercial-grade equipment. Free weights, machines, cardio, functional training zones and more.</div>
+            </div>
+          </div>
+          <div class="feature-row reveal">
+            <div class="feature-icon">👥</div>
+            <div>
+              <div class="feature-title">Expert Coaching</div>
+              <div class="feature-text">20 certified trainers with specializations across strength, combat, cardio and mobility. Real credentials, real results.</div>
+            </div>
+          </div>
+          <div class="feature-row reveal">
+            <div class="feature-icon">⚡</div>
+            <div>
+              <div class="feature-title">24/7 Access</div>
+              <div class="feature-text">The gym never sleeps, and neither does your progress. Elite and Pro members get round-the-clock access.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-images reveal">
+        <div class="about-img">
+          <div class="about-img-placeholder">Gym Floor</div>
+        </div>
+        <div class="about-img">
+          <div class="about-img-placeholder">Equipment</div>
+        </div>
+        <div class="about-img">
+          <div class="about-img-placeholder">Community</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+   PROGRAMS SECTION
+══════════════════════════════════════════ -->
+<section id="programs" class="section-pad">
+  <div class="container">
+    <div class="programs-header">
+      <div>
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-heading">Choose Your <span class="text-red">Weapon</span></h2>
+      </div>
+      <p class="section-sub" style="margin-top:0">6 elite programs designed to destroy plateaus, build performance, and push your limits further than you thought possible.</p>
+    </div>
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-filter="all">All Programs</button>
+      <button class="filter-tab" data-filter="strength">Strength</button>
+      <button class="filter-tab" data-filter="cardio">Cardio</button>
+      <button class="filter-tab" data-filter="flexibility">Flexibility</button>
+      <button class="filter-tab" data-filter="combat">Combat</button>
+    </div>
+    <div class="programs-grid" id="programsGrid">
+      <!-- Loaded via JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+   TRAINERS SECTION
+══════════════════════════════════════════ -->
+<section id="trainers" class="section-pad">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px">
+      <div class="section-label" style="justify-content:center">Meet The Team</div>
+      <h2 class="section-heading">Coached By <span class="text-red">The Best</span></h2>
+      <p class="section-sub" style="margin:16px auto 0;text-align:center">Our trainers aren't just certified — they're obsessed. Every one of them has walked the walk.</p>
+    </div>
+    <div class="trainers-grid" id="trainersGrid">
+      <!-- Loaded via JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+   PRICING SECTION
+══════════════════════════════════════════ -->
+<section id="pricing" class="section-pad">
+  <div class="container">
+    <div class="pricing-header">
+      <div class="section-label" style="justify-content:center">Membership</div>
+      <h2 class="section-heading">Invest In <span class="text-red">Yourself</span></h2>
+      <p class="section-sub" style="margin:16px auto 0;text-align:center;max-width:460px">No long contracts. No hidden fees. Choose the plan that matches your ambition.</p>
+      <div class="pricing-toggle">
+        <button class="toggle-option active" data-billing="monthly">Monthly</button>
+        <button class="toggle-option" data-billing="annual">Annual <span class="save-badge">SAVE 20%</span></button>
+      </div>
+    </div>
+    <div class="pricing-grid" id="pricingGrid">
+      <!-- Loaded via JS -->
+    </div>
+    <div class="trust-strip">
+      <span class="trust-item">No long-term contract</span>
+      <span class="trust-item">Cancel anytime</span>
+      <span class="trust-item">7-day free trial</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+   TESTIMONIALS SECTION
+══════════════════════════════════════════ -->
+<section id="testimonials" class="section-pad">
+  <div class="testi-quote-bg">"</div>
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px">
+      <div class="section-label" style="justify-content:center">Real Results</div>
+      <h2 class="section-heading">Members Who <span class="text-red">Transformed</span></h2>
+    </div>
+    <div class="testimonials-grid" id="testimonialsGrid">
+      <!-- Loaded via JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+   GALLERY SECTION
+══════════════════════════════════════════ -->
+<section id="gallery" class="section-pad">
+  <div class="container">
+    <div style="display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:40px;flex-wrap:wrap;gap:16px">
+      <div>
+        <div class="section-label">Inside ForgeFit</div>
+        <h2 class="section-heading">The <span class="text-red">Arena</span></h2>
+      </div>
+      <a href="#contact" class="btn btn-ghost">Get a Tour →</a>
+    </div>
+   <div class="gallery-grid">
+
+  <!-- 1 Gym Floor -->
+  <div class="gallery-tile">
+    <div class="gallery-tile-bg"
+    style="background:url('gymfloor.avif');
+    background-size:cover;
+    background-position:center;"></div>
+    <div class="gallery-overlay">
+      <div class="gallery-cat">Gym Floor</div>
+    </div>
+  </div>
+
+  <!-- 2 Equipment -->
+  <div class="gallery-tile">
+    <div class="gallery-tile-bg"
+    style="background:url('gymequipment.avif');
+    background-size:cover;
+    background-position:center;"></div>
+    <div class="gallery-overlay">
+      <div class="gallery-cat">Equipment</div>
+    </div>
+  </div>
+
+  <!-- 3 Classes -->
+  <div class="gallery-tile">
+    <div class="gallery-tile-bg"
+    style="background:url('classes.avif');
+    background-size:cover;
+    background-position:center;"></div>
+    <div class="gallery-overlay">
+      <div class="gallery-cat">Classes</div>
+    </div>
+  </div>
+
+  <!-- 4 Community -->
+  <div class="gallery-tile">
+    <div class="gallery-tile-bg"
+    style="background:url('community.webp');
+    background-size:cover;
+    background-position:center;"></div>
+    <div class="gallery-overlay">
+      <div class="gallery-cat">Community</div>
+    </div>
+  </div>
+
+  <!-- 5 Extra Image (same photo repeat if needed) -->
+  <div class="gallery-tile">
+    <div class="gallery-tile-bg"
+    style="background:url('gymfloor.avif');
+    background-size:cover;
+    background-position:center;"></div>
+    <div class="gallery-overlay">
+      <div class="gallery-cat">Workout</div>
+    </div>
+  </div>
+
+
+  </div>
+
+</div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+   CONTACT SECTION
+══════════════════════════════════════════ -->
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:56px">
+      <div class="section-label" style="justify-content:center">Get In Touch</div>
+      <h2 class="section-heading">Start Your <span class="text-red">Journey</span></h2>
+      <p class="section-sub" style="margin:16px auto 0;text-align:center">Book a free consultation with one of our coaches. No commitment, no sales pitch — just a real conversation about your goals.</p>
+    </div>
+    <div class="contact-grid">
+      <!-- Info Panel -->
+      <div class="contact-info reveal">
+        <div class="section-label">Find Us</div>
+        <h3 style="font-family:var(--font-display);font-size:32px;font-weight:900;text-transform:uppercase;color:var(--text-primary);margin-bottom:8px">We're Ready<br><span class="text-red">When You Are</span></h3>
+        <div class="contact-info-items">
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📍</div>
+            <div>
+              <span class="contact-info-label">Location</span>
+              <span class="contact-info-value">45 Forge Street, Salem,<br>Tamil Nadu 636001</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">🕐</div>
+            <div>
+              <span class="contact-info-label">Hours</span>
+              <span class="contact-info-value">Mon–Fri: 5:00am – 11:00pm<br>Weekends: 6:00am – 9:00pm</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">📞</div>
+            <div>
+              <span class="contact-info-label">Phone</span>
+              <span class="contact-info-value">+91 98765 43210</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon">✉️</div>
+            <div>
+              <span class="contact-info-label">Email</span>
+              <span class="contact-info-value">hello@forgefit.in</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-map">🗺 Google Map — Dark Theme</div>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="firstName">First Name *</label>
+            <input class="form-input" type="text" id="firstName" name="firstName" placeholder="Arjun" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="lastName">Last Name *</label>
+            <input class="form-input" type="text" id="lastName" name="lastName" placeholder="Sharma" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email Address *</label>
+          <input class="form-input" type="email" id="email" name="email" placeholder="arjun@email.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="goal">Your Goal *</label>
+          <select class="form-select" id="goal" name="goal" required>
+            <option value="">Select your primary goal</option>
+            <option value="weight-loss">Weight Loss</option>
+            <option value="muscle-gain">Build Muscle</option>
+            <option value="general-fitness">General Fitness</option>
+            <option value="sport-performance">Sport Performance</option>
+            <option value="rehabilitation">Injury Rehabilitation</option>
+            <option value="martial-arts">Boxing / Martial Arts</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Message (Optional)</label>
+          <textarea class="form-textarea" id="message" name="message" placeholder="Tell us a bit about your fitness background and what you're looking for..."></textarea>
+        </div>
+        <div class="form-msg" id="formMsg"></div>
+        <button type="submit" class="btn btn-primary btn-full">
+          Send Message — Free Consultation
+        </button>
+        <p style="font-size:12px;color:var(--text-muted);text-align:center;margin-top:12px">
+          We respond within 24 hours. No spam, ever.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+   FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div>
+        <div class="footer-brand-name">FORGE<span>FIT</span></div>
+        <p class="footer-tagline">Redefine your limits. Every rep. Every day.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link" aria-label="Instagram">📸</a>
+          <a href="#" class="social-link" aria-label="YouTube">▶</a>
+          <a href="#" class="social-link" aria-label="Facebook">👥</a>
+        </div>
+      </div>
+
+      <!-- Programs -->
+      <div>
+        <div class="footer-col-title">Programs</div>
+        <div class="footer-links">
+          <a href="#programs" class="footer-link">Strength Training</a>
+          <a href="#programs" class="footer-link">HIIT Cardio</a>
+          <a href="#programs" class="footer-link">Boxing & MMA</a>
+          <a href="#programs" class="footer-link">Yoga & Recovery</a>
+          <a href="#programs" class="footer-link">CrossFit Circuits</a>
+        </div>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <div class="footer-col-title">Company</div>
+        <div class="footer-links">
+          <a href="#about" class="footer-link">About Us</a>
+          <a href="#trainers" class="footer-link">Our Team</a>
+          <a href="#pricing" class="footer-link">Membership</a>
+          <a href="#contact" class="footer-link">Contact</a>
+          <a href="#" class="footer-link">Careers</a>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="footer-newsletter">
+        <div class="footer-col-title">Stay Motivated</div>
+        <p>Get weekly training tips, nutrition advice and member transformation stories — straight to your inbox.</p>
+        <form id="newsletterForm" class="newsletter-row">
+          <input type="email" class="newsletter-input" placeholder="your@email.com" required>
+          <button type="submit" class="newsletter-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2025 ForgeFit. All rights reserved.</span>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="toast" id="toast"></div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
